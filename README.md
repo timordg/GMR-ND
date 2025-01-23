@@ -29,7 +29,7 @@ The goal was to find out if an extension of the MRecuri model in a full GNN appr
 
 ## Evaluation Data
 
-All models, including the replicated MRecuri model, the novel GMR-ND models and benchmark models are evaluated on data collected from Last.fm. For auxilary information tags and audio features data from last.fm and the Spotify API were used. Note that the same user-track listening relations as in the MRecuri study are used. For tags and feature data, the data was scraped seperately.
+All models, including the replicated MRecuri model, the novel GMR-ND models and benchmark models are evaluated on data collected from Last.fm. For auxilary information tags and audio features data from last.fm were used. Note that the same user-track listening relations as in the MRecuri study are used. For tags and feature data, the data was scraped seperately.
 
 ## Notebooks Overview
 
@@ -95,9 +95,6 @@ A brief overview on the functionality of each notebook and how their artifacts r
 
 ### 8.1 LastFM_API_Call.ipynb
 - Collects tag data
-
-### 8.2 Spotify_Audio_Features_API.ipynb
-- Collects audio features data
 
 ## Data Folder Structure
 
