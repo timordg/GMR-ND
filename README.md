@@ -31,6 +31,10 @@ The goal was to find out if an extension of the MRecuri model in a full GNN appr
 
 All models, including the replicated MRecuri model, the novel GMR-ND models and benchmark models are evaluated on data collected from Last.fm. For auxilary information tags and audio features data from last.fm were used. Note that the same user-track listening relations as in the MRecuri study are used. For tags and feature data, the data was scraped seperately.
 
+## Model Architecture
+
+![alt text](https://github.com/timordg/GMR-ND/blob/main/GMR-ND_Architecture.png)
+
 ## Notebooks Overview
 
 A brief overview on the functionality of each notebook and how their artifacts relate to each other. The notebook structure is designed to be run sequentially, with data and model artifacts being passed between them.
